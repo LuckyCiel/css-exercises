@@ -5,7 +5,65 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+.header {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px
+
+}
+.header .left-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.header .right-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.footer {
+  display: flex;
+  background-color: #eeee;
+  justify-content: space-between;
+  padding: 20px
+
+}
+
+.footer .left-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.footer .right-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+
+}
+
 
 img {
   width: 600px;
@@ -16,6 +74,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 12px 8px 12px;
 }
 
 input {
@@ -24,4 +83,21 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
 }
